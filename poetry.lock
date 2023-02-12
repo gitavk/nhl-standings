@@ -226,6 +226,20 @@ test = ["pytest (<7.1)", "pytest-asyncio", "testpath"]
 test_extra = ["pytest (<7.1)", "pytest-asyncio", "testpath", "curio", "matplotlib (!=3.2.0)", "nbformat", "numpy (>=1.21)", "pandas", "trio"]
 
 [[package]]
+name = "isort"
+version = "5.12.0"
+description = "A Python utility / library to sort Python imports."
+category = "dev"
+optional = false
+python-versions = ">=3.8.0"
+
+[package.extras]
+colors = ["colorama (>=0.4.3)"]
+requirements-deprecated-finder = ["pip-api", "pipreqs"]
+pipfile-deprecated-finder = ["pip-shims (>=0.5.2)", "pipreqs", "requirementslib"]
+plugins = ["setuptools"]
+
+[[package]]
 name = "jedi"
 version = "0.18.2"
 description = "An autocompletion tool for Python that can be used for text editors."
@@ -497,7 +511,7 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "54a6a7c8656f417456803076f7f2538e369ff317d6b9934d4254fab525fbb4e5"
+content-hash = "d9aacf4b0ce5e7f8ff70659b4cc0ba9d2b1fcf3fd9f787c789ffd756715ba8d7"
 
 [metadata.files]
 aiohttp = []
@@ -533,6 +547,7 @@ frozenlist = []
 idna = []
 iniconfig = []
 ipython = []
+isort = []
 jedi = []
 jinja2 = []
 markupsafe = []
