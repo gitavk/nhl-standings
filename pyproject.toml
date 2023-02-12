@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nhl-standings"
+version = "0.1.0"
+description = ""
+authors = ["gitavk <3apa3ka3@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+aiohttp = "^3.8.3"
+Jinja2 = "^3.1.2"
+
+[tool.poetry.dev-dependencies]
+black = "^23.1.0"
+pytest = "^7.2.1"
+ipython = "^8.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
